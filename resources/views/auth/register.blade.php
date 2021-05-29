@@ -51,14 +51,14 @@
                                 <div class="w-5/12">
                                     <x-label for="password" />
                                     <x-input placeholder='Mot de passe' id="password"
-                                        class="block mt-1 w-full bg-gray-800 border-gray-500" type="text"
+                                        class="block mt-1 w-full bg-gray-800 border-gray-500" type="password"
                                         name="password" required autocomplete="new-password" />
                                 </div>
                                 <!-- Confirm Password -->
                                 <div class="w-5/12">
                                     <x-label for="password_confirmation" />
                                     <x-input placeholder='Confirmer le mot de passe' id="password_confirmation"
-                                        class="block mt-1 w-full bg-gray-800 border-gray-500" type="text"
+                                        class="block mt-1 w-full bg-gray-800 border-gray-500" type="password"
                                         name="password_confirmation" required />
                                 </div>
                             </div>

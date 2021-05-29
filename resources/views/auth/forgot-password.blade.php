@@ -35,7 +35,7 @@
             <div>
                 <x-label for="email" />
 
-                <x-input id="email" placeholder='Email' class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
+                <x-input id="email" placeholder='Email' class="block mt-1 w-full bg-gray-800 border-gray-500" type="email" name="email" :value="old('email')" required autofocus />
             </div>
             <div class="flex justify-between">
                 <div class="flex items-center justify-end mt-4">
